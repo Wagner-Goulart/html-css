@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color:rgb(203, 36, 36);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(124, 115, 115);
+        }
+        a:active {
+            color: blue;
+        }
+        a::after {
+            content: ' [>>]';
+            text-decoration: none;
+            font-weight: normal;
+            color: red;
+        } 
+        a::before {
+            content: ' [<<]';
+            text-decoration: none;
+            font-weight: normal;
+            color: red;
+        }    
+            
+
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizndo links</h1>
+    <ul>  
+        <li><a href="https://github.com/Wagner-Goulart" target="_blank">Github</a></li>
+        <li><a href="#" target="_blank">
+            Youtube
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/wagner-goulart-ba609b242/" target="_blank">linkedin</a></li>
+    </ul>
+    
+</body>
+</html>
